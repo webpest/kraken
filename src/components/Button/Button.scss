@@ -1,0 +1,17 @@
+.btn {
+  padding: 0.4rem 1rem;
+  background-color: var(--purple);
+  color: var(--white);
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  > span {
+    display: inline-block;
+    margin-right: 0.4rem;
+    font-weight: 500;
+  }
+}

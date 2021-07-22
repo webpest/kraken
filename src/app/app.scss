@@ -1,0 +1,32 @@
+:root {
+  --bgcolor: #f7f8fc;
+  --purple: rgba(174, 33, 232, 1);
+  --blue: rgba(73, 98, 231, 1);
+  --pink: rgba(215, 97, 148, 1);
+  --white: #fff;
+  --gradient: linear-gradient(
+    45deg,
+    var(--blue) 0%,
+    var(--pink) 120%,
+    var(--purple) 100%
+  );
+  --textColor: rgba(0, 0, 0, 0.4);
+  --headingColor: #383e68;
+  --border-radius: 5px;
+}
+
+body {
+  background-color: var(--bgcolor);
+  color: var(--textColor);
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  width: 100%;
+  max-width: 960px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  column-gap: 20px;
+}

@@ -1,0 +1,16 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  color: var(--blue);
+  background-color: var(--bgcolor);
+  border-radius: var(--border-radius);
+}

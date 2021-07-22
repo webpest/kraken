@@ -1,0 +1,19 @@
+.select__wrapper {
+  > span {
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 8px;
+  }
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 1px solid transparent;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiNiYmIiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==) !important;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    padding-right: 2rem;
+    color: var(--white);
+  }
+}

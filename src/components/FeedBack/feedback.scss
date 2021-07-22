@@ -1,0 +1,60 @@
+.feedback__list {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+
+  .header {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    column-gap: 20px;
+    align-items: center;
+    background-color: var(--headingColor);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+  }
+}
+
+.feedback__card {
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 40px 1fr 50px;
+  column-gap: 20px;
+
+  .upvote {
+    background-color: var(--bgcolor);
+    border-radius: var(--border-radius);
+    align-self: flex-start;
+    color: var(--headingColor);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  .feedback {
+    h3 {
+      font-size: 1rem;
+      color: var(--headingColor);
+    }
+
+    > p {
+      margin-bottom: 8px;
+    }
+  }
+
+  .comment {
+    align-self: center;
+    justify-self: flex-end;
+    color: rgba(0, 0, 0, 0.2);
+
+    > span {
+      font-weight: 500;
+      color: var(--headingColor);
+    }
+  }
+}
